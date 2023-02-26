@@ -21,6 +21,8 @@
         page.password.sendKeys("tokyo@admin");
         page.Login.click();
         Thread.sleep(2000);
+        
+        //click master
         page.master.click();
         Thread.sleep(2000);
         
